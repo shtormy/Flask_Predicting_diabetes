@@ -1,2 +1,8 @@
-# Flask_Predicting_diabetes
-Predicting the incidence of diabetes using Flask
+В этом проекте нужно реализовать rest api на базе flask, сделать pipeline (преобразования + модель), сохранить его на диск, создать requirements.txt с пакетами.
+итоговый проект должен содержать: 
+1) каталог app/models/ (здесь модель-пайплайн предобученная либо код обучения модели-пайплайна)
+2) файл app/run_server.py (здесь основной код flask-приложения)
+3) requirements.txt (список пакетов, которые у вас используются в проекте - в корне проекта)
+4) README.md (здесь какое-то описание, что вы делаете, что за данные, как запускать и т.д)
+5) Dockerfile
+6) docker-entrypoint.sh
